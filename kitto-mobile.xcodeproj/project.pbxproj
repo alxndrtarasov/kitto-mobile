@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6268500B22C2315000758675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268500A22C2315000758675 /* AppDelegate.swift */; };
-		6268500D22C2315000758675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268500C22C2315000758675 /* ViewController.swift */; };
+		6262F89B22C3B5F70053773D /* RequestSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F89A22C3B5F70053773D /* RequestSuccessViewController.swift */; };
+		6262F89D22C3B6530053773D /* liblottie-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262F89C22C3B6530053773D /* liblottie-ios.a */; };
+		6262F89F22C3E1070053773D /* 1190-like.json in Resources */ = {isa = PBXBuildFile; fileRef = 6262F89E22C3E1070053773D /* 1190-like.json */; };
+		6262F8A122C4CC480053773D /* 6926-sad-package.json in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8A022C4CC480053773D /* 6926-sad-package.json */; };
+		6262F8A322C4EA020053773D /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8A222C4EA020053773D /* RequestsViewController.swift */; };
+		6262F8A522C4ED960053773D /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8A422C4ED960053773D /* RequestTableViewCell.swift */; };
+		6262F8A722C4FB230053773D /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8A622C4FB230053773D /* RequestViewController.swift */; };
+		6262F8AA22C4FCDE0053773D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8A922C4FCDE0053773D /* AppDelegate.swift */; };
+		6262F8AC22C5399B0053773D /* SendClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8AB22C5399B0053773D /* SendClaimViewController.swift */; };
+		6262F8AE22C54E680053773D /* ClaimsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8AD22C54E680053773D /* ClaimsListViewController.swift */; };
+		6262F8B022C550010053773D /* ClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262F8AF22C550010053773D /* ClaimViewController.swift */; };
+		6262F8B222C55FF00053773D /* background_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8B122C55FF00053773D /* background_2.jpg */; };
+		6262F8B822C560680053773D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8B322C560670053773D /* 5.png */; };
+		6262F8B922C560680053773D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8B422C560670053773D /* 2.png */; };
+		6262F8BA22C560680053773D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8B522C560670053773D /* 1.png */; };
+		6262F8BB22C560680053773D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8B622C560680053773D /* 3.png */; };
+		6262F8BC22C560680053773D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6262F8B722C560680053773D /* 4.png */; };
+		6262F8BE22C5668F0053773D /* libAlamofire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262F8BD22C5668F0053773D /* libAlamofire.a */; };
+		6262F8C022C5668F0053773D /* libChameleonFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262F8BF22C5668F0053773D /* libChameleonFramework.a */; };
+		6262F8C222C5668F0053773D /* libSwiftyButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262F8C122C5668F0053773D /* libSwiftyButton.a */; };
 		6268501022C2315000758675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6268500E22C2315000758675 /* Main.storyboard */; };
 		6268501222C2315200758675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6268501122C2315200758675 /* Assets.xcassets */; };
 		6268501522C2315200758675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6268501322C2315200758675 /* LaunchScreen.storyboard */; };
+		6268501D22C2739C00758675 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268501C22C2739C00758675 /* AuthViewController.swift */; };
+		6268501F22C2740500758675 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268501E22C2740500758675 /* DashboardViewController.swift */; };
+		6268502122C2797600758675 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268502022C2797600758675 /* CompanyTableViewCell.swift */; };
+		62BA9A3522C28A7800DA033F /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA9A3422C28A7800DA033F /* CompanyViewController.swift */; };
+		62BA9A3722C39B2D00DA033F /* SendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA9A3622C39B2D00DA033F /* SendRequestViewController.swift */; };
+		62BA9A3922C3A73D00DA033F /* libiOSDropDown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BA9A3822C3A73D00DA033F /* libiOSDropDown.a */; };
+		6C24C05EB5B707AF939AA52D /* libPods-kitto-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA95E996CAB5EAAADF536186 /* libPods-kitto-mobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6262F89A22C3B5F70053773D /* RequestSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSuccessViewController.swift; sourceTree = "<group>"; };
+		6262F89C22C3B6530053773D /* liblottie-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6262F89E22C3E1070053773D /* 1190-like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1190-like.json"; sourceTree = SOURCE_ROOT; };
+		6262F8A022C4CC480053773D /* 6926-sad-package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6926-sad-package.json"; sourceTree = SOURCE_ROOT; };
+		6262F8A222C4EA020053773D /* RequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		6262F8A422C4ED960053773D /* RequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		6262F8A622C4FB230053773D /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		6262F8A922C4FCDE0053773D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6262F8AB22C5399B0053773D /* SendClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendClaimViewController.swift; sourceTree = "<group>"; };
+		6262F8AD22C54E680053773D /* ClaimsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimsListViewController.swift; sourceTree = "<group>"; };
+		6262F8AF22C550010053773D /* ClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimViewController.swift; sourceTree = "<group>"; };
+		6262F8B122C55FF00053773D /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_2.jpg; path = "../../App Brewery Massive Bundle/Image Assets/backgrounds/set 3/background_2.jpg"; sourceTree = "<group>"; };
+		6262F8B322C560670053773D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = "../../App Brewery Massive Bundle/Image Assets/backgrounds/set 1/5.png"; sourceTree = "<group>"; };
+		6262F8B422C560670053773D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "../../App Brewery Massive Bundle/Image Assets/backgrounds/set 1/2.png"; sourceTree = "<group>"; };
+		6262F8B522C560670053773D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "../../App Brewery Massive Bundle/Image Assets/backgrounds/set 1/1.png"; sourceTree = "<group>"; };
+		6262F8B622C560680053773D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = "../../App Brewery Massive Bundle/Image Assets/backgrounds/set 1/3.png"; sourceTree = "<group>"; };
+		6262F8B722C560680053773D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = "../../App Brewery Massive Bundle/Image Assets/backgrounds/set 1/4.png"; sourceTree = "<group>"; };
+		6262F8BD22C5668F0053773D /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6262F8BF22C5668F0053773D /* libChameleonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libChameleonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6262F8C122C5668F0053773D /* libSwiftyButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftyButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6268500722C2315000758675 /* kitto-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kitto-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6268500A22C2315000758675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6268500C22C2315000758675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6268500F22C2315000758675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6268501122C2315200758675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6268501422C2315200758675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6268501622C2315200758675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6268501C22C2739C00758675 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		6268501E22C2740500758675 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6268502022C2797600758675 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		62BA9A3422C28A7800DA033F /* CompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewController.swift; sourceTree = "<group>"; };
+		62BA9A3622C39B2D00DA033F /* SendRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestViewController.swift; sourceTree = "<group>"; };
+		62BA9A3822C3A73D00DA033F /* libiOSDropDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libiOSDropDown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		925909D8FBEA76E1C4EDFEBF /* Pods-kitto-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitto-mobile.debug.xcconfig"; path = "Target Support Files/Pods-kitto-mobile/Pods-kitto-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA78DF603737D801B573AEE /* Pods-kitto-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kitto-mobile.release.xcconfig"; path = "Target Support Files/Pods-kitto-mobile/Pods-kitto-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		FA95E996CAB5EAAADF536186 /* libPods-kitto-mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kitto-mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6262F8BE22C5668F0053773D /* libAlamofire.a in Frameworks */,
+				6262F8C022C5668F0053773D /* libChameleonFramework.a in Frameworks */,
+				6262F8C222C5668F0053773D /* libSwiftyButton.a in Frameworks */,
+				6262F89D22C3B6530053773D /* liblottie-ios.a in Frameworks */,
+				62BA9A3922C3A73D00DA033F /* libiOSDropDown.a in Frameworks */,
+				6C24C05EB5B707AF939AA52D /* libPods-kitto-mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09EA1FF735AF8A7F9D79F4F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				925909D8FBEA76E1C4EDFEBF /* Pods-kitto-mobile.debug.xcconfig */,
+				ABA78DF603737D801B573AEE /* Pods-kitto-mobile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6262F8A822C4FB480053773D /* CompaniesAgregator */ = {
+			isa = PBXGroup;
+			children = (
+				6262F89A22C3B5F70053773D /* RequestSuccessViewController.swift */,
+				62BA9A3422C28A7800DA033F /* CompanyViewController.swift */,
+				6268501E22C2740500758675 /* DashboardViewController.swift */,
+				62BA9A3622C39B2D00DA033F /* SendRequestViewController.swift */,
+				6268502022C2797600758675 /* CompanyTableViewCell.swift */,
+			);
+			path = CompaniesAgregator;
+			sourceTree = "<group>";
+		};
 		62684FFE22C2315000758675 = {
 			isa = PBXGroup;
 			children = (
 				6268500922C2315000758675 /* kitto-mobile */,
 				6268500822C2315000758675 /* Products */,
+				09EA1FF735AF8A7F9D79F4F0 /* Pods */,
+				B10465DDA3A154B1E78A47DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +135,42 @@
 		6268500922C2315000758675 /* kitto-mobile */ = {
 			isa = PBXGroup;
 			children = (
-				6268500A22C2315000758675 /* AppDelegate.swift */,
-				6268500C22C2315000758675 /* ViewController.swift */,
+				6262F8B522C560670053773D /* 1.png */,
+				6262F8B422C560670053773D /* 2.png */,
+				6262F8B622C560680053773D /* 3.png */,
+				6262F8B722C560680053773D /* 4.png */,
+				6262F8B322C560670053773D /* 5.png */,
+				6262F8B122C55FF00053773D /* background_2.jpg */,
+				6262F8A922C4FCDE0053773D /* AppDelegate.swift */,
+				6262F8A822C4FB480053773D /* CompaniesAgregator */,
+				6262F8A022C4CC480053773D /* 6926-sad-package.json */,
+				6262F89E22C3E1070053773D /* 1190-like.json */,
+				6268501C22C2739C00758675 /* AuthViewController.swift */,
 				6268500E22C2315000758675 /* Main.storyboard */,
+				6262F8AD22C54E680053773D /* ClaimsListViewController.swift */,
+				6262F8AB22C5399B0053773D /* SendClaimViewController.swift */,
+				6262F8A622C4FB230053773D /* RequestViewController.swift */,
+				6262F8AF22C550010053773D /* ClaimViewController.swift */,
+				6262F8A222C4EA020053773D /* RequestsViewController.swift */,
+				6262F8A422C4ED960053773D /* RequestTableViewCell.swift */,
 				6268501122C2315200758675 /* Assets.xcassets */,
 				6268501322C2315200758675 /* LaunchScreen.storyboard */,
 				6268501622C2315200758675 /* Info.plist */,
 			);
 			path = "kitto-mobile";
+			sourceTree = "<group>";
+		};
+		B10465DDA3A154B1E78A47DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6262F8BD22C5668F0053773D /* libAlamofire.a */,
+				6262F8BF22C5668F0053773D /* libChameleonFramework.a */,
+				6262F8C122C5668F0053773D /* libSwiftyButton.a */,
+				6262F89C22C3B6530053773D /* liblottie-ios.a */,
+				62BA9A3822C3A73D00DA033F /* libiOSDropDown.a */,
+				FA95E996CAB5EAAADF536186 /* libPods-kitto-mobile.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6268501922C2315200758675 /* Build configuration list for PBXNativeTarget "kitto-mobile" */;
 			buildPhases = (
+				1BB8C632677B94A3D04646DB /* [CP] Check Pods Manifest.lock */,
 				6268500322C2315000758675 /* Sources */,
 				6268500422C2315000758675 /* Frameworks */,
 				6268500522C2315000758675 /* Resources */,
@@ -122,21 +232,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6262F8BC22C560680053773D /* 4.png in Resources */,
+				6262F8BA22C560680053773D /* 1.png in Resources */,
+				6262F8B222C55FF00053773D /* background_2.jpg in Resources */,
+				6262F8A122C4CC480053773D /* 6926-sad-package.json in Resources */,
+				6262F8B922C560680053773D /* 2.png in Resources */,
 				6268501522C2315200758675 /* LaunchScreen.storyboard in Resources */,
+				6262F8BB22C560680053773D /* 3.png in Resources */,
 				6268501222C2315200758675 /* Assets.xcassets in Resources */,
+				6262F8B822C560680053773D /* 5.png in Resources */,
 				6268501022C2315000758675 /* Main.storyboard in Resources */,
+				6262F89F22C3E1070053773D /* 1190-like.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB8C632677B94A3D04646DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kitto-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6268500322C2315000758675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6268500D22C2315000758675 /* ViewController.swift in Sources */,
-				6268500B22C2315000758675 /* AppDelegate.swift in Sources */,
+				6262F8B022C550010053773D /* ClaimViewController.swift in Sources */,
+				6268501D22C2739C00758675 /* AuthViewController.swift in Sources */,
+				6262F8AE22C54E680053773D /* ClaimsListViewController.swift in Sources */,
+				6268501F22C2740500758675 /* DashboardViewController.swift in Sources */,
+				6262F8A722C4FB230053773D /* RequestViewController.swift in Sources */,
+				6262F8A322C4EA020053773D /* RequestsViewController.swift in Sources */,
+				62BA9A3722C39B2D00DA033F /* SendRequestViewController.swift in Sources */,
+				6262F8A522C4ED960053773D /* RequestTableViewCell.swift in Sources */,
+				6268502122C2797600758675 /* CompanyTableViewCell.swift in Sources */,
+				62BA9A3522C28A7800DA033F /* CompanyViewController.swift in Sources */,
+				6262F8AA22C4FCDE0053773D /* AppDelegate.swift in Sources */,
+				6262F8AC22C5399B0053773D /* SendClaimViewController.swift in Sources */,
+				6262F89B22C3B5F70053773D /* RequestSuccessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +434,7 @@
 		};
 		6268501A22C2315200758675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925909D8FBEA76E1C4EDFEBF /* Pods-kitto-mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +453,7 @@
 		};
 		6268501B22C2315200758675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA78DF603737D801B573AEE /* Pods-kitto-mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
